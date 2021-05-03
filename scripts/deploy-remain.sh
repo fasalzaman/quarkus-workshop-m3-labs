@@ -10,7 +10,7 @@ fi
 
 echo Your username is $USERXX
 
-oc project $USERXX-project
+oc project $USERXX-codeready
 
 sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-customers-service.sh
 sh $CHE_PROJECTS_ROOT/quarkus-workshop-m3-labs/scripts/deploy-visits-service.sh
